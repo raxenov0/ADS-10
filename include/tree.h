@@ -8,8 +8,7 @@
 #include <string>
 
 class Tree {
-
-private:
+ private:
   struct Node {
         std::vector<Node*> points;
         char value;
@@ -21,7 +20,7 @@ private:
     std::vector<char> perest;
     std::vector<std::vector<char>> result;
 
-public:
+ public:
     explicit Tree(std::vector <char> in) {
         elements = in;
         element.resize(in.size());
