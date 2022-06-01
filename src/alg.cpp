@@ -6,6 +6,6 @@
 #include  "tree.h"
 
 std::vector<char> getPerm(const Tree& tree, int n) {
-   if (n > tree.result.size()) throw("Error!");
+    if (n > tree.result.size()) {throw("Error!");}
         return tree.result[n-1];
 }
