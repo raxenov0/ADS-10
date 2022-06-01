@@ -50,7 +50,7 @@ class Tree {
             transition(in, i, number, root->points[i]);
         }
     }
-    std::vector<T> getPerm(int number) {
+    std::vector<char> getPerm(int number) {
         if (number > result.size()) throw("Error!");
         return result[number-1];
     }
