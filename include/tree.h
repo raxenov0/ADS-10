@@ -50,7 +50,7 @@ class Tree {
             transition(in, i, number, root->points[i]);
         }
     }
-    std::vector<char> getResult(int num){
+    std::vector<char> getResult(Tree tree, int num){
      if (num > result.size()) throw("Error!");
      return result[num];
     }
