@@ -52,6 +52,6 @@ class Tree {
     }
     std::vector<char> getResult(Tree tree, int num){
      if (num > result.size()) throw("Error!");
-     return result[num];
+     return result[num-1];
     }
 };
